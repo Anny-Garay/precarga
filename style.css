@@ -1,4 +1,4 @@
-html, body {
+.preloader{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -64,11 +64,6 @@ overflow: hidden; /* Bloquea el scroll mientras carga */
 .logo-text .light {
     color: #999;
     font-weight: normal;
-}
-
-/* Oculta todo lo demás hasta después de precarga */
-.main-content {
-    visibility: hidden;
 }
 
 @keyframes wave {
